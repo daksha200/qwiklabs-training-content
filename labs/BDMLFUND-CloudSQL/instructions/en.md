@@ -55,14 +55,14 @@ To explore the lab code in Cloud Shell:
     | Table Name | Columns |
     |---|---|
     | Accommodation | Id, title, location, price, rooms, rating, type |
-    | ________________? | ________________? |
-    | ________________? | ________________? |
+    | Recommendation| userId , accoId , prediction |
+    | Rating |userId, accoId , rating |
 
     How do these relate to the rentals recommendation scenario? Fill the following blanks:
 
-    * When a user rates a house (giving it four stars for example), an entry is added to the ________________ table.
-    * General information about houses, such as the number of rooms they have and their average rating is stored in the ________________ table.
-    * The job of the recommendation engine is to fill out the ________________ table for each user and house: this is the predicted rating of that house by that user.
+    * When a user rates a house (giving it four stars for example), an entry is added to the __Rating ______ table.
+    * General information about houses, such as the number of rooms they have and their average rating is stored in the __Accomodation______________ table.
+    * The job of the recommendation engine is to fill out the _Reccomandation_  table for each user and house: this is the predicted rating of that house by that user.
 
 5. Examine the data files using __head__:
 
